@@ -6,15 +6,15 @@ import com.vehicle.ElectricCar;
 public class VehicleTest {
     public static void main(String[] args) {
         Car myCar = new Car();
-        myCar.setSpeed(80.0); // Set speed to 100 Kph
-        myCar.setFuelLevel(80.0f); // Set fuel level to 80%
+        myCar.setSpeed(80.0); 
+        myCar.setFuelLevel(80.0f); 
 
         ElectricCar myElectricCar = new ElectricCar();
-        myElectricCar.setSpeed(140.0); // Set speed to 120 Kph
-        myElectricCar.setFuelLevel(60.0f); // Set fuel level to 60%
-        myElectricCar.setBatteryLevel(85.0); // Set battery level to 85%
+        myElectricCar.setSpeed(140.0); 
+        myElectricCar.setFuelLevel(60.0f); 
+        myElectricCar.setBatteryLevel(85.0); 
 
-        int distance = 20000; // Drive 20 kilometers
+        int distance = 20000; 
 
         myCar.drive(distance);
         myElectricCar.drive(distance);
